@@ -1,9 +1,9 @@
 <template>
     <header class="blog-header">
       <div class="logo">
-        <!-- <router-link to="/"> -->
+        <router-link to="/" class="link">
           <h1>{{ siteName }}</h1>
-        <!-- </router-link> -->
+        </router-link>
       </div>
     </header>
 </template>
@@ -22,6 +22,12 @@
       display: flex;
       flex-direction: column;
       align-items: center;
+      text-decoration: none;
+    }
+
+    .link {
+      text-decoration: none;
+      color: inherit;
     }
     
     .logo {

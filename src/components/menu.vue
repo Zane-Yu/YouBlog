@@ -9,7 +9,11 @@
       >
           {{ value }}
       </a>
-      <router-link to="/personal"><a>>> 个人主页</a></router-link>
+      <router-link to="/personal">
+        <a class="pspage">
+          >> 个人主页
+        </a>
+      </router-link>
       </div>
     </header>
     
@@ -58,6 +62,12 @@
     background-color: white;
     border-radius: 5px;
     padding: 10px 20px;
+  }
+
+  .pspage:hover {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
   }
 </style>
   

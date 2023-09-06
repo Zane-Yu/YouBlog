@@ -13,9 +13,9 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 
 ## show the page
 
-![Alt text](image-1.png)
+![Alt text](./src/imgs/image-1.png)
 
-![Alt text](image.png)
+![Alt text](./src/imgs/image.png)
 
 ## Project Setup
 

@@ -6,7 +6,10 @@
                 placeholder="输入搜索关键词"
                 class="search-input"
             />
-            <button @click="search" class="search-button">搜索</button>
+            <button @click="search" class="search-button">
+              <img src="../assets/search.svg">
+              搜索
+            </button>
         </div>
         <div
             v-for="(content, title) in search_blogs"
@@ -94,6 +97,13 @@
     border-radius: 5px;
     cursor: pointer;
     font-size: large;
+  }
+
+  .search-button img{
+    margin: 0;
+    padding: 0;
+    width: 20px;
+    color: white;
   }
 
   #text {

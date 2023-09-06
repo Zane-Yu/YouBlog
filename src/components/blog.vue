@@ -2,7 +2,10 @@
     <div class="blog-editor">
       <input v-model="blogTitle" placeholder="输入博文标题">
       <textarea v-model="blogContent" placeholder="在这里编辑你的博文"></textarea>
-      <button @click="sendBlog">发送博文</button>
+      <button @click="sendBlog">
+        <img src="../assets/rocket.svg">
+        发送博文
+      </button>
       <p v-if="isEmpty">标题和内容都不能为空</p>
     </div>
   </template>
@@ -62,6 +65,9 @@
     cursor: pointer;
     font-size: large;
     border-radius: 5px;
+  }
+  button img{
+    width: 20px;
   }
 
   button:hover {

@@ -65,9 +65,13 @@
     cursor: pointer;
     font-size: large;
     border-radius: 5px;
+    display: flex;
   }
   button img{
-    width: 20px;
+    margin-right: 6px;
+    padding: 0;
+    width: 24px;
+    color: white;
   }
 
   button:hover {

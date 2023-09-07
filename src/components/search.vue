@@ -97,12 +97,13 @@
     border-radius: 5px;
     cursor: pointer;
     font-size: large;
+    display: flex;
   }
 
   .search-button img{
-    margin: 0;
+    margin-right: 6px;
     padding: 0;
-    width: 20px;
+    width: 23px;
     color: white;
   }
 
